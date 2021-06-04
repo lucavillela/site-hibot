@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+.imagem img{
+    width: 817px;
+    height: 977px;
+    margin-left: 525px;   
+}
+
+.loginporra{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 800px;
+    transform: translateY(-450%);
+}
+.loginporra input{
+    height: 45px;
+    width: 300px;
+    border-color: #333333;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    align-self: center;
+    transform: translateY(445%);
+}
+.loginporra .btn{
+    text-decoration: none;
+    text-align: center;
+    background-color: #f14040;
+    color: white;
+    border-radius: 4px;
+    height: 35px;
+    font-size: 16; 
+    transform: translateY(572%);
+    border: 2px solid black;  
+}
+.loginporra .btn:hover{
+    background-color: maroon;
+}
+.ql h2{
+    text-align: center;
+    transform: translateY(-1000%);
+    font-size: 50px;
+}
+.info p{
+    position: relative;
+    text-align: center;
+    transform: translateY(-1610%);
+    font-size: 30px;
+    
+}
